@@ -5,7 +5,7 @@ Hud style alert window for Mac OS X
 
 ## Screenshot
 
-<img src='https://raw.github.com/MacLabs/MLHudAlert/master/example.png' style='width:590px;' />
+<img src='https://raw.github.com/MacLabs/MLHudAlert/master/example.png' style='width:295px;' />
 
 ## Usage
 
