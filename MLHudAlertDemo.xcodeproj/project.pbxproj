@@ -7,22 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91DDF45A1796426D00D82744 /* MLHudAlertError.png in Resources */ = {isa = PBXBuildFile; fileRef = 91DDF4561796426C00D82744 /* MLHudAlertError.png */; };
+		91DDF45B1796426D00D82744 /* MLHudAlertInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 91DDF4571796426D00D82744 /* MLHudAlertInfo.png */; };
+		91DDF45C1796426D00D82744 /* MLHudAlertSuccess.png in Resources */ = {isa = PBXBuildFile; fileRef = 91DDF4581796426D00D82744 /* MLHudAlertSuccess.png */; };
+		91DDF45D1796426D00D82744 /* MLHudAlertWarn.png in Resources */ = {isa = PBXBuildFile; fileRef = 91DDF4591796426D00D82744 /* MLHudAlertWarn.png */; };
 		9677130917954CB1008330B3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9677130817954CB1008330B3 /* Cocoa.framework */; };
 		9677131317954CB1008330B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9677131117954CB1008330B3 /* InfoPlist.strings */; };
 		9677131517954CB1008330B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9677131417954CB1008330B3 /* main.m */; };
 		9677131917954CB1008330B3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9677131717954CB1008330B3 /* Credits.rtf */; };
 		9677131C17954CB1008330B3 /* MLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9677131B17954CB1008330B3 /* MLAppDelegate.m */; };
 		9677131F17954CB1008330B3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9677131D17954CB1008330B3 /* MainMenu.xib */; };
-		9677133317954CF7008330B3 /* XMHudAlertError.png in Resources */ = {isa = PBXBuildFile; fileRef = 9677132F17954CF7008330B3 /* XMHudAlertError.png */; };
-		9677133417954CF7008330B3 /* XMHudAlertInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9677133017954CF7008330B3 /* XMHudAlertInfo.png */; };
-		9677133517954CF7008330B3 /* XMHudAlertSuccess.png in Resources */ = {isa = PBXBuildFile; fileRef = 9677133117954CF7008330B3 /* XMHudAlertSuccess.png */; };
-		9677133617954CF7008330B3 /* XMHudAlertWarn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9677133217954CF7008330B3 /* XMHudAlertWarn.png */; };
 		9677133C17954D65008330B3 /* MLHudAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 9677133817954D64008330B3 /* MLHudAlert.m */; };
 		9677133D17954D65008330B3 /* MLHudAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9677133917954D64008330B3 /* MLHudAlert.xib */; };
 		9677133E17954D65008330B3 /* MLHudAlertWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9677133B17954D65008330B3 /* MLHudAlertWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		91DDF4561796426C00D82744 /* MLHudAlertError.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MLHudAlertError.png; sourceTree = "<group>"; };
+		91DDF4571796426D00D82744 /* MLHudAlertInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MLHudAlertInfo.png; sourceTree = "<group>"; };
+		91DDF4581796426D00D82744 /* MLHudAlertSuccess.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MLHudAlertSuccess.png; sourceTree = "<group>"; };
+		91DDF4591796426D00D82744 /* MLHudAlertWarn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MLHudAlertWarn.png; sourceTree = "<group>"; };
 		9677130517954CB1008330B3 /* MLHudAlertDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLHudAlertDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9677130817954CB1008330B3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		9677130B17954CB1008330B3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -36,10 +40,6 @@
 		9677131A17954CB1008330B3 /* MLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLAppDelegate.h; sourceTree = "<group>"; };
 		9677131B17954CB1008330B3 /* MLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLAppDelegate.m; sourceTree = "<group>"; };
 		9677131E17954CB1008330B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		9677132F17954CF7008330B3 /* XMHudAlertError.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XMHudAlertError.png; sourceTree = "<group>"; };
-		9677133017954CF7008330B3 /* XMHudAlertInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XMHudAlertInfo.png; sourceTree = "<group>"; };
-		9677133117954CF7008330B3 /* XMHudAlertSuccess.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XMHudAlertSuccess.png; sourceTree = "<group>"; };
-		9677133217954CF7008330B3 /* XMHudAlertWarn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XMHudAlertWarn.png; sourceTree = "<group>"; };
 		9677133717954D64008330B3 /* MLHudAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLHudAlert.h; sourceTree = "<group>"; };
 		9677133817954D64008330B3 /* MLHudAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLHudAlert.m; sourceTree = "<group>"; };
 		9677133917954D64008330B3 /* MLHudAlert.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MLHudAlert.xib; sourceTree = "<group>"; };
@@ -135,10 +135,10 @@
 		9677132E17954CF7008330B3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9677132F17954CF7008330B3 /* XMHudAlertError.png */,
-				9677133017954CF7008330B3 /* XMHudAlertInfo.png */,
-				9677133117954CF7008330B3 /* XMHudAlertSuccess.png */,
-				9677133217954CF7008330B3 /* XMHudAlertWarn.png */,
+				91DDF4561796426C00D82744 /* MLHudAlertError.png */,
+				91DDF4571796426D00D82744 /* MLHudAlertInfo.png */,
+				91DDF4581796426D00D82744 /* MLHudAlertSuccess.png */,
+				91DDF4591796426D00D82744 /* MLHudAlertWarn.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -198,11 +198,11 @@
 				9677131317954CB1008330B3 /* InfoPlist.strings in Resources */,
 				9677131917954CB1008330B3 /* Credits.rtf in Resources */,
 				9677131F17954CB1008330B3 /* MainMenu.xib in Resources */,
-				9677133317954CF7008330B3 /* XMHudAlertError.png in Resources */,
-				9677133417954CF7008330B3 /* XMHudAlertInfo.png in Resources */,
-				9677133517954CF7008330B3 /* XMHudAlertSuccess.png in Resources */,
-				9677133617954CF7008330B3 /* XMHudAlertWarn.png in Resources */,
 				9677133D17954D65008330B3 /* MLHudAlert.xib in Resources */,
+				91DDF45A1796426D00D82744 /* MLHudAlertError.png in Resources */,
+				91DDF45B1796426D00D82744 /* MLHudAlertInfo.png in Resources */,
+				91DDF45C1796426D00D82744 /* MLHudAlertSuccess.png in Resources */,
+				91DDF45D1796426D00D82744 /* MLHudAlertWarn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

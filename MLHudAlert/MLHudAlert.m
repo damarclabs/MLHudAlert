@@ -92,6 +92,11 @@ static MLHudAlert *_staticHudAlert;
         }
         clickEvent = [NSEvent addLocalMonitorForEventsMatchingMask:(NSLeftMouseDownMask | NSRightMouseDownMask) handler:^NSEvent *(NSEvent *e) {
             if (!NSPointInRect(NSEvent.mouseLocation, self.window.frame)) {
+                if (clickEvent) {
+                    [NSEvent removeMonitor:clickEvent];
+                    clickEvent = nil;
+                }
+
                 [self dismiss:nil];
             }
             return e;
