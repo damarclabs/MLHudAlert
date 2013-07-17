@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/MacLabs/MLHudAlert.git", :tag => "0.0.1" }
   s.platform     = :osx
   s.source_files = 'MLHudAlert/**/*.{h,m}'
-  s.resources    = 'MLHudAlert/Resources/*.{png}'
+  s.resources    = ['MLHudAlert/Resources/*.{png}','MLHudAlert/*.xib']
   # s.exclude_files = 'Classes/Exclude'
   s.public_header_files = 'MLHudAlert/**/*.h'
   s.requires_arc = true
