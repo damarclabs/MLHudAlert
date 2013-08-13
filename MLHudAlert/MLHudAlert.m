@@ -53,7 +53,7 @@ static MLHudAlert *_staticHudAlert;
         _staticHudAlert.iconView.image = [NSImage imageNamed:iconName];
     }
     
-    _staticHudAlert.messageField.stringValue = message;
+    _staticHudAlert.messageField.stringValue = message ?: @"";
     
     // Add to parent window and show it
     if (_staticHudAlert.window.parentWindow) {
