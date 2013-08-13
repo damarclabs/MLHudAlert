@@ -87,22 +87,21 @@ static MLHudAlert *_staticHudAlert;
         dismissTimer = [NSTimer scheduledTimerWithTimeInterval:2 target:self selector:@selector(dismiss:) userInfo:nil repeats:NO];
         
         // 点击任何区域关闭 Hud
-        [self removeClickEvent];
+        if (clickEvent) {
+            [NSEvent removeMonitor:clickEvent];
+        }
         clickEvent = [NSEvent addLocalMonitorForEventsMatchingMask:(NSLeftMouseDownMask | NSRightMouseDownMask) handler:^NSEvent *(NSEvent *e) {
             if (!NSPointInRect(NSEvent.mouseLocation, self.window.frame)) {
-                [self removeClickEvent];
+                if (clickEvent) {
+                    [NSEvent removeMonitor:clickEvent];
+                    clickEvent = nil;
+                }
+
                 [self dismiss:nil];
             }
             return e;
         }];
     }    
-}
-
-- (void) removeClickEvent {
-    if (clickEvent) {
-        [NSEvent removeMonitor:clickEvent];
-        clickEvent = nil;
-    }
 }
 
 - (void) dismiss: (id) sender {
